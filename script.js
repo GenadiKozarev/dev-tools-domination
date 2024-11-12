@@ -9,6 +9,8 @@ function makeGreen() {
     p.style.fontSize = '50px';
     p.style.textAlign = 'center';
     p.style.alignContent = 'center';
+    alert('Open DevTools by pressing F12 or right-click and select Inspect.');
+    p.innerText = 'Noice!';
 }
 
 // interpolated
@@ -31,6 +33,7 @@ console.info('London receives less rainfall than Rome, Istanbul or Sydney.');
 
 // testing
 const p = document.querySelector('p');
+p.addEventListener('click', makeGreen);
 
 console.assert(p.classList.contains('ouch'), "This paragraph does not have a class of 'ouch'");
 
