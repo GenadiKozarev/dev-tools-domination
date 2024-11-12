@@ -1,6 +1,6 @@
 # dev-tools-domination
 
-### A few userful DevTools Console tricks
+### A few useful DevTools Console tricks
 
 Live: https://genadikozarev.github.io/dev-tools-domination/
 
